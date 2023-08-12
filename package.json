@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "jspdf": "^2.5.1",
+    "nuka-carousel": "^6.0.3",
+    "react-pdf": "^7.3.3",
+    "react-responsive-carousel": "^3.2.23",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

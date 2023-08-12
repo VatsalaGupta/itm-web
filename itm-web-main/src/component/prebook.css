@@ -1,0 +1,107 @@
+.book{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.book_button1{
+    background-color: red;
+    color: whitesmoke;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.book_button2{
+    background-color: red;
+    color: whitesmoke;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.book_chat{
+    padding-left: 10px;
+}
+.arrow_img{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width:560px){
+    .book{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        padding: 5px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .book_button1{
+        background-color: red;
+        color: whitesmoke;
+        padding: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 5px;
+    }
+    .book_button2{
+        background-color: red;
+        color: whitesmoke;
+        padding: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 5px;
+        display: hidden;
+    }
+    .book_chat{
+        padding-left: 5px;
+    }
+    .arrow_img{
+        width: 70px;
+        height: 30px;
+        border-radius: 5px;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:452px){
+    .book{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        padding: 5px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .book_button1{
+        background-color: red;
+        color: whitesmoke;
+        padding: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 5px;
+    }
+    .book_button2{
+      
+        display: none;
+    }
+    .book_chat{
+        padding-left: 0px;
+    }
+    .arrow_img{
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        margin-left: 5px;
+        cursor: pointer;
+        display: none;
+    }
+}

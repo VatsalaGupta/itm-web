@@ -1,0 +1,12 @@
+.apply_form{
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+.form_main_sansk1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
