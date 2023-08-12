@@ -95,7 +95,7 @@ function App() {
         <Route path='/PDFViewer' element={<PDFViewer />} />
       </Routes>
       {/* <PDFViewer pdfUrl={pdfUrl} /> */}
-      {/* <Page5/> */}
+      <Page5/>
       
 
     </div>

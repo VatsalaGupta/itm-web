@@ -12,7 +12,7 @@ const PDFViewer = () => {
 
     return (
         <div>
-            <h1 className='text-center text-3xl underline font-bold mt-20 borde-2'>STUDENT LIST</h1>
+            <h1 className='text-center text-3xl underline font-bold mt-20 borde-2'>STUDENT DETAILS</h1>
 
             <div className='items-center justify-center flex content-center'>
                 <div className="mt-10 ">
